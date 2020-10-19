@@ -1,6 +1,10 @@
 # 測驗紙
 import random
-r = random.randint(1,100)
+start = input('請輸入開始值：')
+end = input('請輸入結束值：')
+start = int(start)
+end = int(end)
+r = random.randint(start,end)
 count = 0
 while True:
 	count += 1
